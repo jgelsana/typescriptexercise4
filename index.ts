@@ -17,9 +17,6 @@ export const moveZeros = (input: string) => {
         }
     }
 
-    console.log('     Zero counter: ' + zeroCounter);
-    console.log('     Spliced array: [' + array.join(', ') + ']');
-
     for(let i = 0; i < zeroCounter; i++) {
         array.push(0);
     }
